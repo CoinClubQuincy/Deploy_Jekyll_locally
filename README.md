@@ -95,7 +95,10 @@ We recommend using  [Bundler](http://bundler.io/)  to install and run Jekyll. Bu
 
 3.Download  Windows Package Manager tool  https://docs.microsoft.com/en-gb/learn/modules/explore-windows-package-manager-tool/?WT.mc_id=AZ-MVP-5004737
 2. execute script
-``windowsSetup.cmd``
+`````shell
+windowsSetup.cmd
+`````
+
 3. if setup script has been run then you only need to run the execution command in the correct directory
 `````shell
 bundle exec jekyll serve
