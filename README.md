@@ -26,9 +26,14 @@ We recommend using  [Bundler](http://bundler.io/)  to install and run Jekyll. Bu
 ``shellbundle exec jekyll serve
 ``
 
-***Script***
-```bash macSetup.sh```
-
+***Run Setup Script***
+`````shell 
+bash macSetup.sh
+`````
+If set up script has been run before Run Build Command
+`````shell 
+bundle exec jekyll serve
+`````
 
 # Ubuntu
 ***Manual Setup for different types of  linux build***
@@ -50,8 +55,14 @@ We recommend using  [Bundler](http://bundler.io/)  to install and run Jekyll. Bu
 3.  Run  `bundle install`.
 4.  Run your Jekyll site locally.
 
-***Script***
-``UbuntuSetup.sh``
+***Run Setup Script***
+`````shell 
+UbuntuSetup.sh
+`````
+If set up script has been run before Run Build Command
+`````shell 
+bundle exec jekyll serve
+`````
 
 # Windows
 
